@@ -19,4 +19,7 @@ results = model(
     source=jpgs,
     project="F:\\work_new\\QingMiaoChunLei\\2026-11\\Notes\\FangZiQuan\\Codes\\yolo_output",
     save=True)
-print("YOLO OK")
+
+num_results = len(jpgs)
+
+print("YOLO OK, num_results = ", num_results)
