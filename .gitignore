@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# YOLO 产物
+runs/
+weights/
+*.pt
+*.onnx
+*.engine
+*.pth
+datasets/
+data/
+
+# VSCode
+.vscode/
+.idea/
+
+# 系统
+.DS_Store
+Thumbs.db
